@@ -17,9 +17,10 @@ api_key = st.secrets["GROQ_API_KEY"]
 
 # Embeddings
 embeddings = HuggingFaceEmbeddings(
-    model_name="nomic-ai/nomic-embed-text-v1.5",
+    model_name="intfloat/e5-small",
     model_kwargs={"device": "cpu"}
 )
+
 
 
 # ----------------------------- UI -----------------------------
