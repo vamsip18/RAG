@@ -16,11 +16,7 @@ from langchain_community.vectorstores import Chroma
 api_key = st.secrets["GROQ_API_KEY"]
 
 # Embeddings
-embeddings = HuggingFaceEmbeddings(
-    model_name="intfloat/e5-small",
-    model_kwargs={"device": "cpu"}
-)
-
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 
 # ----------------------------- UI -----------------------------
