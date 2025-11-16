@@ -73,6 +73,5 @@ The system retrieves answers **accurately with page references** using a fast an
 │── requirements.txt
 │── README.md
 │── architecture.png
-│── faiss_store/
 
 
