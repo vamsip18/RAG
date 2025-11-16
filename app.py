@@ -16,7 +16,7 @@ from langchain_community.vectorstores import Chroma
 api_key = st.secrets["GROQ_API_KEY"]
 
 # Embeddings
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2",model_kwargs={"device": "cpu"})
 
 # ----------------------------- UI -----------------------------
 st.title("📄 Cerevyn Document Intelligence – AI PDF/Q&A Agent")
