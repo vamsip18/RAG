@@ -26,6 +26,7 @@ The system retrieves answers **accurately with page references** using a fast an
 ---
 
 ## 🏗️ Architecture
+      
        ┌──────────────────────────┐
        │        User Uploads      │
        │        Multiple PDFs     │
