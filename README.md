@@ -62,16 +62,5 @@ The system retrieves answers **accurately with page references** using a fast an
 7. Groq LLM answers using ONLY retrieved context  
 8. Answer + page numbers shown in chat UI  
 
----
-
-## 📦 Folder Structure
-
-
-
-📁 RAG/
-│── app.py
-│── requirements.txt
-│── README.md
-│── architecture.png
 
 
